@@ -6,13 +6,14 @@
 }
 
 :root{
-    --space-color1: white;
-    --space-color2: #d1c7e6;
-    --space-color3: #827eae;
+    --space-color1: #8196ab;
+    --space-color2: #57728f;
+    --space-color3: #2e5073;
 }
 
 body{
     font-family:'Courier New', Courier, monospace;
+    background-color: var(--space-color1);
 }
 
 header{
@@ -21,6 +22,7 @@ header{
     justify-content: left;
     flex-wrap: wrap;
     position: sticky;
+    top: 0;
     background-image: url(../images/hero.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -76,10 +78,57 @@ header nav ul li a{
     font-weight: normal;
 }
 
+#about-me{
+    margin: 50px 10%;
+    font-size: 24px;
+}
+
+#about-me h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 48px;
+    margin: 50px 40%;
+    border-bottom: 5px solid var(--space-color3);
+}
+
+#about-me .facts{
+    margin-top: 20px;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+#about-me ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    text-indent: -20px;
+}
+
+#work-examples{
+    background-color: white;
+    color: var(--space-color3);
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: space-around;
+}
+
+#work-examples h2{
+    font-size: 48px;
+    color: var(--space-color3);
+    margin: 0px 30px;
+    flex: 0 30%;
+}
+
+.example-group{
+    flex: 0 70%;
+    background-color: var(--space-color1);
+    border: 8px solid var(--space-color3);
+}
+
 #work-examples img{
     height: 350px;
     width: 350px;
-    border: 2px solid black;
+    border: 8px solid var(--space-color3);
     border-radius: 20px;
 }
 
