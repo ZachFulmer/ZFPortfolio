@@ -164,7 +164,7 @@ header nav ul li a{
     font-size: 48px;
     font-weight: normal;
     text-align: center;
-    margin: 50px 40%;
+    margin: 50px 40% 0 40%;
     border-bottom: 5px solid white;
 }
 
@@ -178,5 +178,12 @@ header nav ul li a{
     height: 350px;
     width: 350px;
 }
+
+#contact-me img{
+    margin: 2.5%;
+    height: 350px;
+    width: 300px;
+}
+
 
 
