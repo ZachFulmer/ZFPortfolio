@@ -161,6 +161,7 @@ header nav ul li a{
 }
 
 #contact-me h2{
+    flex: 0 0 100%;
     font-size: 48px;
     font-weight: normal;
     text-align: center;
